@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+nav {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    /* padding: 10px; */
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.header {
+    background-color: black;
+    padding: 10px;
+}
+
+.description {
+    background-image: url("liquid-cheese-yellow-background.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30%;
+    background-size: cover;
+
+    max-height: 300px;
+
+    font-size: large;
+    padding: 20px;
+    line-height: 50px;
+
+}
+
+.boxes {
+    /* margin-top: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: lightgreen; */
+
+}
+.box-container
+{
+    /* background-color: rgb(232, 236, 203); */
+}
+.box {
+
+    margin-top: 20px;
+    width: 27%;
+
+    box-shadow: 2px 2px 6px rgb(0, 0, 0, 0.2);
+
+    border-radius: 5px;
+
+    text-align: center;
+    padding: 10px;
+    height: 450px;
+
+    position: relative;
+    transition: transform 0.3 ease;
+
+    font-size: 1rem;
+
+    cursor: grab;
+
+    background-color: #fff;
+    
+
+
+}
+
+.box p {
+    text-align: justify;
+}
+
+.box:hover {
+    transform: translate(-10px, -10px);
+}
+
+.p-img {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 2px;
+    padding: 5px 10px 5px 10px;
+}
+
+#box1 .p-img {
+    background-image: url("amazon.jpeg");
+}
+
+#box2 .p-img {
+    background-image: url("imgsearcher.png");
+}
+
+#box3 .p-img {
+    background-image: url("timer.png");
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: large;
+    background-color: #333;
+
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
